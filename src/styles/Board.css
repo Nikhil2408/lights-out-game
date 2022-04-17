@@ -1,0 +1,38 @@
+.Board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LightBoxRow{
+    display:flex;
+}
+
+.Board-header{
+    margin: 1rem;
+}
+
+.Board > p{
+    margin-bottom: 2rem;
+}
+
+.Board-winMsg{
+    font-weight: bold;
+    background-color: rgb(24, 219, 109);
+}
+
+.Board-resetBtn{
+    margin: 2rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.Board-resetBtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.LightBox-active{
+    background-color: cyan;
+    height: 80px;
+    width: 80px;
+    margin: 0.2rem;
+}
+
+.LightBox-inactive{
+    background-color: grey;
+    height: 80px;
+    width: 80px;
+    margin: 0.2rem;
+}
