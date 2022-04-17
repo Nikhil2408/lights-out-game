@@ -63,7 +63,6 @@ class Board extends Component{
                 }
             }
         }
-        console.log(allInactiveFlag);
         if(allInactiveFlag === 1){
             this.setState(function(currentState){
                 return {

@@ -5,7 +5,7 @@ class LightsOutContainer extends Component{
     render(){
         return (
             <div>
-                <Board rows_cols = {7}/>
+                <Board rows_cols = {5}/>
             </div>
             
         )
